@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,2632 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: YsX51V_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 630
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9e04c92af377f49b96169270411326
+      internalID: -1874089846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 630
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a1f09bf6528b8449dd23bf4dd46e10
+      internalID: 550191924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 630
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd5aec71b139334b97dfe4c884b0f9b
+      internalID: -1606626311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 630
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c94e43b54949b479087b80e3fad713
+      internalID: 1057110085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 630
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58a42cea1f241a41ad3aa30dd35f798
+      internalID: -484234264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 630
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d38ebe6e0ad54ba338fc55f10ac1b
+      internalID: -42582188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_6
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 630
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b3ac9df3767094abb828cc6edbd43f
+      internalID: 199694651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 593
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28faf2bc5ca460c4c8abb52b926bfa04
+      internalID: 1395371770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 593
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f7d8fe81ebcf84d97704d4395457ff
+      internalID: 1230859709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 593
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d822deab28391c4d8a9f04d407d8359
+      internalID: 1960427063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 593
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106ff780ab42aaf4fb49f8aec531fd38
+      internalID: 1760807224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 593
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2a6398bfdee164fbf7cd086f94a400
+      internalID: -877858339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_12
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 593
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffa40caee0256a45b19ab8f4e6c0c5a
+      internalID: 339450506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_13
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 593
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062e9298b31ce944dad77d4bd774a0e2
+      internalID: -1097614345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 556
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41521d103c8ab64984861c9ef9afeed
+      internalID: 1448241551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 556
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac08dcf7d6f3d3419a1cc35fdab44db
+      internalID: 716054789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 558
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56335e872a18d4458dcd2bf1f6ffb3d
+      internalID: -585482040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 564
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74655c41afbaa4d867db046b368a74
+      internalID: -462310151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 564
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba11f6c05730d6468520619314ad3a4
+      internalID: -535471747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 565
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91dcb2215203f04d8cffc9715515ec1
+      internalID: 261182847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_20
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 561
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed991ca92dd78114c8cf6084365cd64c
+      internalID: 2123510795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 525
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b045b436936ab2f429f57b05083a9f0c
+      internalID: -682092868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 523
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b05952a28d6dd2468e23921619d65fc
+      internalID: 1085188242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 523
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7844d150ef57746838b5b22b99a47a
+      internalID: 1256478583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_24
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 519
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba75046d9abe38a438fa352d1313b06a
+      internalID: -2021011112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 519
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a766d481e66247448b511fd3457235ac
+      internalID: 2013216336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 519
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001743557b67afa4185ddf45023190b3
+      internalID: 817542882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_27
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 519
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8224b2fc316f2a4badb4fd996e5e395
+      internalID: 541500608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 482
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dab799b841f7c478b0afe8b3a074a0
+      internalID: 574342762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 481
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e370aed9f559b42a28edee961e1d11
+      internalID: -1824441407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 481
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32031a62895b7b84ba67bd106ee74fb0
+      internalID: 1639405310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 481
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c01114856ef9c41933e984bdff9858
+      internalID: 968311166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_32
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 481
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb143000166d4c34dbc6d1d385838a48
+      internalID: 1876780982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 483
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf1dcf6662751e43a22b47ad225aea8
+      internalID: 531254937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 485
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45a68eac7e3c9742b02b94b15a61e3b
+      internalID: -866015173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 449
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd578947752ab224489f4e6c87ae33ad
+      internalID: 1018771720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 451
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0a864e7c7ff8749869f36cf0d0966a
+      internalID: 71058922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 451
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b3e49f0d6f78a4ea90f71e8786395e
+      internalID: -1824779732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 445
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5edda09a42f874999e8b8968e3bc3a
+      internalID: 1218421251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 445
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3ac4bb6b33ce244b28e7e5b4697957
+      internalID: -913478694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 445
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acb5dbf61d073e409204fb6a6deaa95
+      internalID: 915508001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_41
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 445
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049df2ac2d8eabc4c85d5afc3e9679da
+      internalID: -864958899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_42
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 408
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f0d418cb5b1944b9c75360e4d81403
+      internalID: 1702427928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 408
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedf3d2e146733646847b6a9f8a3623b
+      internalID: 260690754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_44
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 408
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b58d5423b88dc541adad263e0fa08be
+      internalID: 388195825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_45
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 408
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b6bca86a3b0046bedd24745b4e12c
+      internalID: 1783412078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 408
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cadeeb1a88e7e46bb65080aaeac849
+      internalID: 840574901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 408
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97b88f7ae45e5e43a11ff9914b8fbb6
+      internalID: -2120630274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_48
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 408
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ea8072474d6a4a927e0f13f668241
+      internalID: -356073922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_49
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 371
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c57351fbd5ebe440adccbe56f70fb13
+      internalID: -1316716469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_50
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 371
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380d7657c75529d45a81aca4a022897b
+      internalID: -107078280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 371
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e6cfd5b7c9cb7429b6e4a2b95789e4
+      internalID: -1926274933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_52
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 371
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef1ac9bd80d60843b528e82e44ccf2f
+      internalID: 236164109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_53
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 371
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e046736416e0384e87a06a9d06fb785
+      internalID: -223774204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_54
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 371
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd5eeeb496e60c46b6f66dfa6c53b22
+      internalID: -154585988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_55
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 371
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5232617117fa84d834872fa4dd660c
+      internalID: -78814140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 334
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e6273a2956a749a27f082c355143c
+      internalID: 1394840442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_57
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 334
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afd5779f7ba4f44b8c50212d7425494
+      internalID: 1022610644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_58
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 334
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9965b010db638164f902428f6b4560cb
+      internalID: -1553597587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_59
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 334
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef15132f3474a84194a4f04e113ec83
+      internalID: 1356382207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_60
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 334
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f26ed36a0dca2341ba5b1f0bc87c747
+      internalID: 1151876003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_61
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 334
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91e7da38290eae44a67b6f505dd4d21
+      internalID: -1079044173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_62
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 334
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9c448a0a416174c8abe24ad2c3110d
+      internalID: 868786460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_63
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 297
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f020559d953b44e99b0b7919d499e1
+      internalID: -411467892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_64
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 297
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdef3a2bbf9f5b4d98d1a569b351819
+      internalID: -1305783595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_65
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 297
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2e6d0d14aa0354fa5675c27b20aea5
+      internalID: 480166289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_66
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 297
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb2ac047b0cbef4188898cfb4e14dc6
+      internalID: -1422011020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_67
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 297
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd1c024d4612724a83a326fbde63a32
+      internalID: -668449361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_68
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 297
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d460c010f4940a24f8c81e516e7b5a7a
+      internalID: 599007115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_69
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 297
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943679d19c32a04db26a0d0c73fd70a
+      internalID: -781111826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 260
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9ca31e44862ad4d8bc8568fcce9f81
+      internalID: -483547432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_71
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 260
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b7a7e2c2b75a45bce6b77fc60de06
+      internalID: -1775795391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_72
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 260
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ff627fc407de41b66462511eaf567
+      internalID: -753991623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_73
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 260
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45af59a14dfc1944293c0487ff997936
+      internalID: 1973320741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_74
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 260
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8540466b150ca4a8d801e8fb87f48d
+      internalID: 1441811488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_75
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 260
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd01b7408a414940a542f07e5a5674b
+      internalID: -564912439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_76
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 260
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d71a9401aba2c4ba43f6e2afef0e8c
+      internalID: 1955795593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_77
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 223
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74572939c1cfe794cab900220dd51800
+      internalID: 1635886939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_78
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 223
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512e43a0a1612b94eac5093e6eed45a5
+      internalID: 977291467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_79
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 225
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b025a351136e44b2f8a855e6701ac
+      internalID: -1548235773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_80
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 225
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcb3784253ed7048867e8b80fde6645
+      internalID: -386411048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_81
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 225
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343a4cc1b6c8d084699d9f44512c1fe9
+      internalID: 247912983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_82
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 227
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582391ce7b0bc1a42ac4eea0d658f95f
+      internalID: 1425461057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_83
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 225
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501cae24376b1a749b3acecd50beb02e
+      internalID: -497404526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_84
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 190
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce1b917005a1ae41bdda3f4e2018b54
+      internalID: -176933958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_85
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 186
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b834846bcca0949b9c4469123091e0
+      internalID: 2116622168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_86
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 186
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fc657bd03ad8d4982a14758cc126f5
+      internalID: 153522220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_87
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 186
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71b5401e213b24694bba2bcfa89fee
+      internalID: 508708132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_88
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 186
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7453efd61a2e8e4e92d9843f75f31fe
+      internalID: 454817520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_89
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 186
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2b7ffe3a0ded4da9c8a197ec4baf3
+      internalID: 1462637522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_90
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 186
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aec80c2e716f542831de9e5c603591
+      internalID: 167046234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_91
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 149
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ec3912fd936594f9747f18f6fd6af5
+      internalID: -1730334652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_92
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 149
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212545d580a1db43b9b8345108fb062
+      internalID: 705741276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_93
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 149
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0996fba7cbd9a2146b3e0378494c5c6c
+      internalID: -1976329386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_94
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 149
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc4aacfe8f6a29448ec0a211cb24c91
+      internalID: 969491047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_95
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 149
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1bd10883c3cff4fb66831392758ece
+      internalID: 290097778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_96
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 150
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33f8132d27abc1439c7ee2a8d0b447b
+      internalID: -1260103116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_97
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 151
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b8f113619bfcf45b2d4165fd932a62
+      internalID: 1224288544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_98
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 115
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc56efb4ea9b5b24d85085f110e9368d
+      internalID: 1737815194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_99
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 115
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e92e4ab6e9dfc43b92e0a75bf557ce
+      internalID: 1520487330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_100
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57ccbcca4281434284a94ced75a3bab
+      internalID: -1302308506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_101
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 114
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60e3ed1b7fec9c4398e47819336e918
+      internalID: -1838203545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_102
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 115
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe0ceb86e19fb346b70eca89fc34a85
+      internalID: -1235849081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_103
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 116
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80247414660c2984fa8b03c2d15172c5
+      internalID: 690270424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_104
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 115
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c737a93986dcd40bb1413fa9082bbc
+      internalID: -2108753417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_105
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 78
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedca5e72e8b28542a36079586be579c
+      internalID: 1170299324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_106
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 75
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c867b707733728d41bed48798dab07a7
+      internalID: -445813666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_107
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 75
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53b256a37611b74198cdb4c79f9ade1
+      internalID: -1948835379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_108
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 76
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b3473eb35b70947bca955ae7415a9d
+      internalID: 1694735801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_109
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 75
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8b8f252d57b314db7e9a13a91a2975
+      internalID: -1872470628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_110
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 75
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ab57185f8d72c4fa9e81d5180fe8d1
+      internalID: -357488374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_111
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 75
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1e57faff9a77841bc91b007a003dd4
+      internalID: -2067853840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_112
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 75
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c75d6bb28a93ba4188764ab0a04523d
+      internalID: 96561722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_113
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 38
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764d790505a554f448a746cbfe18ec9f
+      internalID: 1398413952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_114
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb0de5242c5b1e4b9aa7cd99b301b32
+      internalID: 1304142281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_115
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 38
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664edcf290957524a8a48b420d8d95a8
+      internalID: -1704969619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_116
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 38
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c64489c5615d6a45a1cd4bd912f8448
+      internalID: -79675135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_117
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 38
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d329f30f58c554ca27ea4dc5cf760f
+      internalID: -1023493293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_118
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 39
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ef756c63da1a246b265ec7783ba0c3
+      internalID: -262682569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_119
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 37
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29f76d88752ce4884980f9a04030d1
+      internalID: -282169998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_120
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aad821055a3aa640a50204e6fb8bcae
+      internalID: 498233096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_121
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b3db807fe685847a52f1e6e131937e
+      internalID: -507264472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_122
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daa70fc08a959b42ba008e720b2bb9f
+      internalID: -1505105221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_123
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b17d896e121a94785d5e12d0f25105
+      internalID: -231283244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YsX51V_124
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc40eef5f17b214a905d48d0f3cbe70
+      internalID: 1060326012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +2751,132 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      YsX51V_46: 840574901
+      YsX51V_75: -564912439
+      YsX51V_109: -1872470628
+      YsX51V_80: -386411048
+      YsX51V_35: 1018771720
+      YsX51V_34: -866015173
+      YsX51V_32: 1876780982
+      YsX51V_25: 2013216336
+      YsX51V_118: -262682569
+      YsX51V_93: -1976329386
+      YsX51V_105: 1170299324
+      YsX51V_44: 388195825
+      YsX51V_3: 1057110085
+      YsX51V_7: 1395371770
+      YsX51V_50: -107078280
+      YsX51V_89: 1462637522
+      YsX51V_76: 1955795593
+      YsX51V_28: 574342762
+      YsX51V_26: 817542882
+      YsX51V_83: -497404526
+      YsX51V_54: -154585988
+      YsX51V_60: 1151876003
+      YsX51V_108: 1694735801
+      YsX51V_59: 1356382207
+      YsX51V_51: -1926274933
+      YsX51V_106: -445813666
+      YsX51V_122: -1505105221
+      YsX51V_99: 1520487330
+      YsX51V_117: -1023493293
+      YsX51V_86: 153522220
+      YsX51V_120: 498233096
+      YsX51V_87: 508708132
+      YsX51V_91: -1730334652
+      YsX51V_31: 968311166
+      YsX51V_67: -668449361
+      YsX51V_61: -1079044173
+      YsX51V_113: 1398413952
+      YsX51V_21: -682092868
+      YsX51V_4: -484234264
+      YsX51V_42: 1702427928
+      YsX51V_49: -1316716469
+      YsX51V_96: -1260103116
+      YsX51V_12: 339450506
+      YsX51V_16: -585482040
+      YsX51V_37: -1824779732
+      YsX51V_29: -1824441407
+      YsX51V_52: 236164109
+      YsX51V_124: 1060326012
+      YsX51V_0: -1874089846
+      YsX51V_33: 531254937
+      YsX51V_121: -507264472
+      YsX51V_17: -462310151
+      YsX51V_24: -2021011112
+      YsX51V_9: 1960427063
+      YsX51V_14: 1448241551
+      YsX51V_40: 915508001
+      YsX51V_43: 260690754
+      YsX51V_92: 705741276
+      YsX51V_45: 1783412078
+      YsX51V_112: 96561722
+      YsX51V_39: -913478694
+      YsX51V_84: -176933958
+      YsX51V_1: 550191924
+      YsX51V_48: -356073922
+      YsX51V_15: 716054789
+      YsX51V_53: -223774204
+      YsX51V_97: 1224288544
+      YsX51V_65: 480166289
+      YsX51V_79: -1548235773
+      YsX51V_110: -357488374
+      YsX51V_74: 1441811488
+      YsX51V_94: 969491047
+      YsX51V_70: -483547432
+      YsX51V_71: -1775795391
+      YsX51V_19: 261182847
+      YsX51V_10: 1760807224
+      YsX51V_73: 1973320741
+      YsX51V_78: 977291467
+      YsX51V_36: 71058922
+      YsX51V_13: -1097614345
+      YsX51V_62: 868786460
+      YsX51V_88: 454817520
+      YsX51V_22: 1085188242
+      YsX51V_58: -1553597587
+      YsX51V_23: 1256478583
+      YsX51V_57: 1022610644
+      YsX51V_101: -1838203545
+      YsX51V_2: -1606626311
+      YsX51V_27: 541500608
+      YsX51V_95: 290097778
+      YsX51V_90: 167046234
+      YsX51V_81: 247912983
+      YsX51V_47: -2120630274
+      YsX51V_41: -864958899
+      YsX51V_100: -1302308506
+      YsX51V_116: -79675135
+      YsX51V_38: 1218421251
+      YsX51V_63: -411467892
+      YsX51V_77: 1635886939
+      YsX51V_64: -1305783595
+      YsX51V_55: -78814140
+      YsX51V_56: 1394840442
+      YsX51V_8: 1230859709
+      YsX51V_111: -2067853840
+      YsX51V_6: 199694651
+      YsX51V_11: -877858339
+      YsX51V_123: -231283244
+      YsX51V_82: 1425461057
+      YsX51V_20: 2123510795
+      YsX51V_103: 690270424
+      YsX51V_5: -42582188
+      YsX51V_98: 1737815194
+      YsX51V_68: 599007115
+      YsX51V_69: -781111826
+      YsX51V_114: 1304142281
+      YsX51V_30: 1639405310
+      YsX51V_104: -2108753417
+      YsX51V_85: 2116622168
+      YsX51V_102: -1235849081
+      YsX51V_18: -535471747
+      YsX51V_107: -1948835379
+      YsX51V_119: -282169998
+      YsX51V_72: -753991623
+      YsX51V_66: -1422011020
+      YsX51V_115: -1704969619
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

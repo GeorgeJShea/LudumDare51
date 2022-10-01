@@ -25,6 +25,8 @@ public class Level_Manager : MonoBehaviour
 
     Vector2 point = (Vector2)player.transform.position + Random.insideUnitCircle.normalized*radius;
     GameObject temp = Instantiate(enemy);
+    EnemyMove enemyMove = temp.GetComponent<EnemyMove>();
+    
     temp.transform.position = point;
 
     yield return new WaitForSeconds(cooldown);

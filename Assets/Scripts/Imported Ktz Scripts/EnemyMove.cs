@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class EnemyMove : Entity
 {
-    
+    Rigidbody2D rb;
+
     void Awake()
     {
-        target = GameObject.FindGameObjectWithTag("Player");
+        rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale;
         moveAllowed = true;
     }
@@ -15,7 +16,7 @@ public class EnemyMove : Entity
 
         
         if(other.collider.tag == "Player"){
-            moveAllowed = false;
+
         }
         
 
@@ -27,37 +28,27 @@ public class EnemyMove : Entity
         if(currentHealth <0){
             Destroy(this.gameObject);
         }
-
-    }
-    void OnCollisionExit2D(Collision2D other){
-
-        if(other.collider.tag == "Player"){
-            moveAllowed = true;
-        }
-
-
-    }
-
-    void FixedUpdate()
-    {
         
+    }
 
+    private void FixedUpdate()
+    {
         float step = speed * Time.deltaTime;
 
-        float currentDistance = Vector2.Distance(transform.position,target.transform.position);
-        // move sprite towards the target location
-        if(moveAllowed){
-            transform.position = Vector2.MoveTowards(transform.position, target.transform.position, step);
+        if (moveAllowed)
+        {
+            rb.MovePosition(Vector2.MoveTowards(transform.position, target.transform.position, step));
         }
 
-        if(target.transform.position.x > transform.position.x){
-            transform.localScale = new Vector3(0 - originalScale.x,originalScale.y,originalScale.z);
-        }else{
+        if (target.transform.position.x > transform.position.x)
+        {
+            
             transform.localScale = originalScale;
         }
-
+        else
+        {
+            transform.localScale = new Vector3(0 - originalScale.x, originalScale.y, originalScale.z);
+        }
 
     }
-
-    
 }

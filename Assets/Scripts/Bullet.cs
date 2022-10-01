@@ -7,31 +7,47 @@ public class Bullet : MonoBehaviour
     private int damage;
     private float speed;
     private Vector2 direction; 
-    private float time_active;
+    private float active_time;
     private Rigidbody2D bullet;
-    public int team;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         bullet = GetComponent<Rigidbody2D>();
-        time_active=0;
+        active_time=0;
         bullet.velocity = direction*speed;
     }
 
+    // call this after every projectile is created
+    public void init(int damage, float speed, Vector2 dir, float active_time, string team){
+        this.damage = damage;
+        this.speed = speed;
+        this.direction = dir;
+        this.active_time = active_time;
+        gameObject.tag = team;
+    }
+
     // prevents the bullet from existing forever
+    // any extra bullet movement things will go in here
     void Update()
     {
-        if(time_active>=5)
+        if(active_time<=0)
         {
             Destroy(gameObject);
         }
-        time_active+=Time.deltaTime;
+        active_time-=Time.deltaTime;
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
-        // need to see how player/enemy/walls are implemented before coninuing
-        // this will be where damage is applied
-        // it would be cool if player and enemy bullets collided and destroyed eachother
+        // 
+        if(col.gameObject.tag != gameObject.tag)
+        {
+            Entity ent = gameObject.GetComponent<Entity>(); 
+            if(ent != null)
+            {
+                ent.currentHealth-=damage;
+            }
+            Destroy(gameObject);
+        }
     }
 }

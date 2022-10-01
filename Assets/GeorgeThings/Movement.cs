@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-
+    [SerializeField] private float speedCap;
     [SerializeField] private Rigidbody2D rb;
 
     private Vector2 moveDir;
@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        moveDir = new Vector2(moveX, moveY);
+        moveDir = new Vector2(moveX, moveY).normalized;
     }
     private void FixedUpdate()
     {
@@ -34,7 +34,8 @@ public class Movement : MonoBehaviour
     }
 
     void Move()
-    {
-        rb.velocity = new Vector2(moveDir.x * moveSpeed * Time.deltaTime, moveDir.y * moveSpeed * Time.deltaTime);
+        {
+        
+            rb.velocity = new Vector2(moveDir.x * moveSpeed * Time.deltaTime, moveDir.y * moveSpeed * Time.deltaTime);
+        }
     }
-}

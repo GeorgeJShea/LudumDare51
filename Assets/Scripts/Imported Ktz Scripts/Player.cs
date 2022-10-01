@@ -15,7 +15,7 @@ public class Player : Entity
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        anime = this.GetComponent<Animator>();
+        //anime = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -26,12 +26,12 @@ public class Player : Entity
         float v = Input.GetAxisRaw("Vertical");
         if(h < 0 || v < 0 ){
             //this.GetComponent<SpriteRenderer>().flipX= true;
-            anime.SetBool("Moving",true);
+            //anime.SetBool("Moving",true);
         }else if(h> 0 || v > 0){
             //this.GetComponent<SpriteRenderer>().flipX= false;
-            anime.SetBool("Moving",true);
+            //anime.SetBool("Moving",true);
         }else{
-            anime.SetBool("Moving",false);
+            //anime.SetBool("Moving",false);
         }
 
         Vector3 tempVect = new Vector3(h, v, 0);

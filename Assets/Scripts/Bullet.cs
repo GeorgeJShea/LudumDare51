@@ -4,27 +4,16 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private int damage;
-    private float speed;
-    private Vector2 direction; 
-    private float active_time;
-    private Rigidbody2D bullet;
-
+    [SerializeField] private int damage;
+    [SerializeField] private float speed;
+    [SerializeField] protected Vector2 direction; 
+    [SerializeField] private float active_time;
+    [SerializeField] private Rigidbody2D bullet;
 
     void Start()
     {
         bullet = GetComponent<Rigidbody2D>();
-        active_time=0;
         bullet.velocity = direction*speed;
-    }
-
-    // call this after every projectile is created
-    public void init(int damage, float speed, Vector2 dir, float active_time, string team){
-        this.damage = damage;
-        this.speed = speed;
-        this.direction = dir;
-        this.active_time = active_time;
-        gameObject.tag = team;
     }
 
     // prevents the bullet from existing forever
@@ -33,12 +22,14 @@ public class Bullet : MonoBehaviour
     {
         if(active_time<=0)
         {
+            Debug.Log("Bullet timed out");
             Destroy(gameObject);
         }
         active_time-=Time.deltaTime;
     }
     private void OnCollisionEnter2D(Collision2D col)
     {
+        Debug.Log("Collided with "+col.gameObject.name);
         // 
         if(col.gameObject.tag != gameObject.tag)
         {

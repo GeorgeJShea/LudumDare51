@@ -21,8 +21,14 @@ public class Level_Manager : MonoBehaviour
     {
     
         Vector2 point = (Vector2)player.transform.position + Random.insideUnitCircle.normalized*radius;
-        GameObject temp = MasterObjectPooler.Instance.GetPool("MeleeEnemy").GetObject();
-        EnemyMove enemyMove = temp.GetComponent<EnemyMove>();
+        GameObject temp;
+        if(Random.value<.6)
+        {
+            temp = MasterObjectPooler.Instance.GetPool("MeleeEnemy").GetObject();
+        }else{
+            temp = MasterObjectPooler.Instance.GetPool("RangedEnemy").GetObject();
+        }
+        Entity enemyMove = temp.GetComponent<Entity>();
         enemyMove.target = player;
         temp.transform.position = point;
 

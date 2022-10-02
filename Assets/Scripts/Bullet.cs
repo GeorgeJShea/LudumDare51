@@ -1,3 +1,4 @@
+using QFSW.MOP2;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,16 +7,22 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private int damage;
     [SerializeField] private float speed;
-    [SerializeField] protected Vector2 direction; 
-    [SerializeField] private float active_time;
+    [SerializeField] public float active_time = 4;
     [SerializeField] private Rigidbody2D bullet;
 
-    void Start()
+    void Awake()
     {
         bullet = GetComponent<Rigidbody2D>();
-        bullet.velocity = direction*speed;
     }
-
+    public void setDirection(Vector2 dir)
+    {
+        bullet.velocity = dir*speed;
+        Debug.Log(bullet.velocity);
+    }
+    
+    void OnDisable(){
+        Debug.Log("Disabled");
+    }
     // prevents the bullet from existing forever
     // any extra bullet movement things will go in here
     void Update()
@@ -23,7 +30,8 @@ public class Bullet : MonoBehaviour
         if(active_time<=0)
         {
             Debug.Log("Bullet timed out");
-            Destroy(gameObject);
+            active_time = 4;
+            MasterObjectPooler.Instance.Release(this.gameObject, "Bullet");
         }
         active_time-=Time.deltaTime;
     }

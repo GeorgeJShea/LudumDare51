@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5077850785441142461}
   - component: {fileID: 5463947816222813024}
-  - component: {fileID: -5083076356030800322}
   - component: {fileID: 7849313105103059386}
   - component: {fileID: 5145801325108267810}
+  - component: {fileID: 4107471600999013106}
   m_Layer: 0
   m_Name: SpikeSlime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,24 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-5083076356030800322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6205797637547559747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e20f3c31b630054c915f4db54e90684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  maxHealth: 5
-  currentHealth: 4
-  target: {fileID: 0}
-  projCount: 0
-  scoreValue: 5
 --- !u!50 &7849313105103059386
 Rigidbody2D:
   serializedVersion: 4
@@ -142,3 +124,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.24
+--- !u!114 &4107471600999013106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6205797637547559747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5aec6ffb3058d4f957b54cfeef5193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  maxHealth: 5
+  currentHealth: 5
+  target: {fileID: 0}
+  projCount: 0
+  scoreValue: 5

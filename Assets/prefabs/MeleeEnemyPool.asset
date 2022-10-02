@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ad40add42ecce646952aaa9475056c8, type: 3}
-  m_Name: EnemyPool
+  m_Name: MeleeEnemyPool
   m_EditorClassIdentifier: 
-  _name: Enemy
+  _name: MeleeEnemy
   _template: {fileID: 6205797637547559747, guid: 5e1ba59c9a3d4044b93e53341b85505d, type: 3}
   _defaultSize: 50
   _maxSize: -1

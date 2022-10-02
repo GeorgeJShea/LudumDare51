@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8878809766642195314}
   - component: {fileID: 8525053756093158343}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Sword Swipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

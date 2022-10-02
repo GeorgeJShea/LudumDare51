@@ -26,6 +26,11 @@ public class Movement : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
+        //Debug.Log(moveX);
+        if (moveX != 0)
+        {
+            transform.localScale = new Vector3( moveX, transform.localScale.y, transform.localScale.z);
+        }
         moveDir = new Vector2(moveX, moveY).normalized;
     }
     private void FixedUpdate()
@@ -35,7 +40,6 @@ public class Movement : MonoBehaviour
 
     void Move()
         {
-        
             rb.velocity = new Vector2(moveDir.x * moveSpeed * Time.deltaTime, moveDir.y * moveSpeed * Time.deltaTime);
         }
     }

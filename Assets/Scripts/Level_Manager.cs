@@ -12,10 +12,6 @@ public class Level_Manager : MonoBehaviour
     void Start(){
         StartCoroutine("SpawnEnemy");
     }
-    void Update()
-    {
-        
-    }
 
     IEnumerator SpawnEnemy()
     {

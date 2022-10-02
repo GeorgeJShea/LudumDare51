@@ -10,7 +10,7 @@ public class Flame : MonoBehaviour
     public float cooldown;
     private float cooldownMax;
     public float projDelay;
-    public Entity owner;
+    public Player owner;
     private List<Transform> enemies = new List<Transform>();
     void Awake(){
         transform.position = transform.parent.position + new Vector3(offsetX,offsetY,0);

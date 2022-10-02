@@ -1,9 +1,11 @@
+using QFSW.MOP2;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMove : Entity
 {
+    public int scoreValue;
     Rigidbody2D rb;
 
     void Awake()
@@ -25,15 +27,17 @@ public class EnemyMove : Entity
 
     void Update(){
 
-        if(currentHealth <0){
-            Destroy(this.gameObject);
+        if(currentHealth <= 0){
+            Player.score += scoreValue;
+            MasterObjectPooler.Instance.Release(this.gameObject, "Enemy");
+            currentHealth = maxHealth;
         }
         
     }
 
     private void FixedUpdate()
     {
-        float step = speed * Time.deltaTime;
+        float step = speed * Time.deltaTime * RandomEffectManager.globalGameSpeed;
 
         if (moveAllowed)
         {

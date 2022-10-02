@@ -8,9 +8,10 @@ public class Level_Manager : MonoBehaviour
     public GameObject player;
     public float radius;
     public float cooldown;
+    public GameObject playspace;
     // Update is called once per frame
     void Start(){
-
+        Instantiate(playspace,Vector3.zero,Quaternion.identity);
         StartCoroutine("SpawnEnemy");
     }
     void Update()

@@ -3030,6 +3030,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6526302236652969820, guid: dce3abadd436bff4a910d2f6c005f20e, type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6673002533763841212, guid: dce3abadd436bff4a910d2f6c005f20e, type: 3}
       propertyPath: m_Constraints
       value: 4

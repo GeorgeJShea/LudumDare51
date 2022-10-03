@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SpikeSlime : Entity
 {
+    public GameObject deathAffect;
     public int scoreValue;
     Rigidbody2D rb;
 
@@ -33,6 +34,7 @@ public class SpikeSlime : Entity
             target.GetComponent<Player>().score += scoreValue;
             MasterObjectPooler.Instance.Release(this.gameObject, "MeleeEnemy");
             currentHealth = maxHealth;
+            Instantiate(deathAffect, gameObject.transform.position, Quaternion.identity);
         }
         
     }

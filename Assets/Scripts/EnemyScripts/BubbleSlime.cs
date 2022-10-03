@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class BubbleSlime : Entity
 {
+    public GameObject deathAffect;
     public int scoreValue;
     Rigidbody2D rb;
     protected float timeBetweenShots = 1;
-
+    public int healthSteal = 3;
 
     void Awake()
     {
@@ -31,10 +32,11 @@ public class BubbleSlime : Entity
 
         if(currentHealth <= 0){
             target.GetComponent<Player>().score += scoreValue;
-            if(target.GetComponent<Player>().currentHealth < 100 + 3)
-                target.GetComponent<Player>().currentHealth += 3;
+            if(target.GetComponent<Player>().currentHealth < 100 + healthSteal)
+                target.GetComponent<Player>().currentHealth += healthSteal;
             MasterObjectPooler.Instance.Release(this.gameObject, "RangedEnemy");
             currentHealth = maxHealth;
+            Instantiate(deathAffect, gameObject.transform.position, Quaternion.identity);
         }
         
     }

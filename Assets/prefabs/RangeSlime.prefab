@@ -144,7 +144,9 @@ MonoBehaviour:
   target: {fileID: 0}
   projCount: 0
   timeBetweenHits: 0
+  deathAffect: {fileID: 4855476925330022112, guid: bd6a5519ac7181646a28e0f243822cec, type: 3}
   scoreValue: 5
+  healthSteal: 3
 --- !u!114 &2005714271114556998
 MonoBehaviour:
   m_ObjectHideFlags: 0

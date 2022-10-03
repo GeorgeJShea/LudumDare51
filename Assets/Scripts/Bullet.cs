@@ -17,6 +17,9 @@ public class Bullet : MonoBehaviour
     }
     public void setDirection(Vector2 dir)
     {
+        float rot = Vector2.Angle(dir,Vector2.down);
+        if(dir.x<0) rot*=-1;
+        transform.Rotate(0,0,rot);
         bullet.velocity = dir*speed;
     }
 
@@ -32,13 +35,13 @@ public class Bullet : MonoBehaviour
         }
         active_time+=Time.deltaTime;
     }
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         Debug.Log("Collided with "+col.gameObject.name);
         // 
         if(col.gameObject.tag != gameObject.tag)
         {
-            Entity ent = gameObject.GetComponent<Entity>(); 
+            Entity ent = col.gameObject.GetComponent<Entity>(); 
             if(ent != null)
             {
                 ent.currentHealth-=damage;

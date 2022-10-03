@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f6c7cff6e2ff1747a6c0461ee8a438a, type: 3}
-  m_Name: MeleeEnemyPool
+  m_Script: {fileID: 11500000, guid: 5ad40add42ecce646952aaa9475056c8, type: 3}
+  m_Name: DeathFXPool
   m_EditorClassIdentifier: 
-  _name: MeleeEnemy
-  _template: {fileID: 6205797637547559747, guid: 5e1ba59c9a3d4044b93e53341b85505d, type: 3}
-  _defaultSize: 50
+  _name: DeathFX
+  _template: {fileID: 3826700234699233003, guid: fe040d82f7e1e9d499f8ac16d09a9489,
+    type: 3}
+  _defaultSize: 5
   _maxSize: -1
   _incrementalInstanceNames: 0
-  _autoInitialize: 1
-  _repopulateOnSceneChange: 0

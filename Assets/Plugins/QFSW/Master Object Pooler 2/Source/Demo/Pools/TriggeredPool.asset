@@ -9,13 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f6c7cff6e2ff1747a6c0461ee8a438a, type: 3}
-  m_Name: BulletPool
+  m_Script: {fileID: 11500000, guid: 5ad40add42ecce646952aaa9475056c8, type: 3}
+  m_Name: TriggeredPool
   m_EditorClassIdentifier: 
-  _name: Bullet
-  _template: {fileID: 2961899777228450867, guid: 0ae063e288ccdd746b4bc8b5debe3d36, type: 3}
-  _defaultSize: 100
+  _name: Triggered
+  _template: {fileID: 1761364006608128336, guid: 31b9b4976e28c8d4f8da076b3cc39ae6,
+    type: 3}
+  _defaultSize: 4
   _maxSize: -1
-  _incrementalInstanceNames: 0
-  _autoInitialize: 1
-  _repopulateOnSceneChange: 0
+  _incrementalInstanceNames: 1

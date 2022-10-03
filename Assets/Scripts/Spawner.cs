@@ -32,6 +32,8 @@ public class Spawner : MonoBehaviour
 
 
             Color c = grad.Evaluate(Random.Range(0f, 1f));
+            //c = new Color(c.r, c.g, c.b, 180);
+
             enemy.GetComponent<SpriteRenderer>().color = c;
             timeTillNextSpawn = timeBetweenSpawns;
         }

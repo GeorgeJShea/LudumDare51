@@ -74,6 +74,7 @@ public class BubbleSlime : Entity
             Debug.Log("Shot a bullet");
             timeBetweenShots = 1;
             GameObject bullet = MasterObjectPooler.Instance.GetPool("Bullet").GetObject();
+            bullet.GetComponent<SpriteRenderer>().color = transform.GetComponent<SpriteRenderer>().color;
             bullet.transform.position = transform.position;
             Vector3 dir = (target.transform.position-transform.position).normalized;
             bullet.GetComponent<Bullet>().setDirection(dir);

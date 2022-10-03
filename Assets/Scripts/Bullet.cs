@@ -17,6 +17,7 @@ public class Bullet : MonoBehaviour
     }
     public void setDirection(Vector2 dir)
     {
+        bullet.GetComponent<SpriteRenderer>().color = transform.GetComponent<SpriteRenderer>().color;
         float rot = Vector2.Angle(dir,Vector2.down);
         if(dir.x<0) rot*=-1;
         transform.Rotate(0,0,rot);

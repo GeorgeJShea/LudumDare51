@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
         float rot = Vector2.Angle(dir,Vector2.down);
         if(dir.x<0) rot*=-1;
         transform.Rotate(0,0,rot);
-        bullet.velocity = dir*speed;
+        bullet.velocity = dir*speed*Level_Manager.instance.globalGameSpeed;
     }
 
     // prevents the bullet from existing forever

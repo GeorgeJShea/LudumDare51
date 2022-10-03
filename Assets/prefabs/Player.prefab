@@ -655,7 +655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6673002533763841214}
-  - component: {fileID: 6673002533763841211}
+  - component: {fileID: 4055371732557102068}
   - component: {fileID: 6673002533763841212}
   - component: {fileID: 6673002533763841213}
   m_Layer: 0
@@ -686,7 +686,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6673002533763841211
+--- !u!114 &4055371732557102068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -695,12 +695,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6673002533763841215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b62c2731f14f09f4f8efa67214d5088f, type: 3}
+  m_Script: {fileID: 11500000, guid: 28554dac43ccc684da96f3962bc48227, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 350
-  speedCap: 15
-  rb: {fileID: 6673002533763841212}
+  speed: 350
+  maxHealth: 100
+  currentHealth: 100
+  target: {fileID: 0}
+  projCount: 0
+  scoreText: {fileID: 0}
+  weapon: {fileID: 0}
 --- !u!50 &6673002533763841212
 Rigidbody2D:
   serializedVersion: 4
@@ -735,9 +739,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.33134347}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.16865653
+  m_Radius: 0.5
 --- !u!1 &6673002534591227363
 GameObject:
   m_ObjectHideFlags: 0

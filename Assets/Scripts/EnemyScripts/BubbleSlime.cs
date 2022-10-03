@@ -73,7 +73,6 @@ public class BubbleSlime : Entity
             GameObject bullet = MasterObjectPooler.Instance.GetPool("Bullet").GetObject();
             bullet.transform.position = transform.position;
             Vector3 dir = (target.transform.position-transform.position).normalized;
-            Debug.Log(dir);
             //bullet.transform.rotation = Quaternion.LookRotation(dir);
             bullet.GetComponent<Bullet>().setDirection(dir);
         }

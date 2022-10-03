@@ -18,12 +18,8 @@ public class Bullet : MonoBehaviour
     public void setDirection(Vector2 dir)
     {
         bullet.velocity = dir*speed;
-        Debug.Log(bullet.velocity);
     }
-    
-    void OnDisable(){
-        Debug.Log("Disabled");
-    }
+
     // prevents the bullet from existing forever
     // any extra bullet movement things will go in here
     void Update()

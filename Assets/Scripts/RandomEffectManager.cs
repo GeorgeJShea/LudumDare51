@@ -17,6 +17,7 @@ public class RandomEffectManager : MonoBehaviour
     public Transform swordhitbox;
     public GameObject announcement;
     public GameObject colorSplash;
+    public GameObject slimeBoss;
     
     private void Start()
     {
@@ -29,6 +30,8 @@ public class RandomEffectManager : MonoBehaviour
         actions.Add(BiggerSword);
         
         actions.Add(ColorBoom);
+        actions.Add(BossSlime);
+        actions.Add(RandomTeleport);
     }
 
 
@@ -148,6 +151,20 @@ public class RandomEffectManager : MonoBehaviour
         swordhitbox.position = new Vector3(sword.position.x, sword.position.y - 0.6f, sword.position.z);
         //Debug.Log("Sword x2 reverted");
     }
+
+    public void BossSlime()
+    {
+        Instantiate(slimeBoss,GameObject.Find("PlaySpace").transform.position,Quaternion.identity);
+        StartCoroutine(Announce("Slime Boss"));
+    }
+
+    public void RandomTeleport()
+    {
+        Vector3 point = GameObject.Find("PlaySpace").transform.position + (Vector3)UnityEngine.Random.insideUnitCircle.normalized*7;
+        GameObject.Find("Player").transform.position = point;
+        StartCoroutine(Announce("Random Teleport"));
+    }
+
 
 
 }

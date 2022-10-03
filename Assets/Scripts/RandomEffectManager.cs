@@ -16,7 +16,8 @@ public class RandomEffectManager : MonoBehaviour
     public Transform sword;
     public Transform swordhitbox;
     public GameObject announcement;
-    public Image colorSplash;
+    public GameObject colorSplash;
+    
     private void Start()
     {
 
@@ -79,17 +80,18 @@ public class RandomEffectManager : MonoBehaviour
     
     public void ColorBoom()
     {
+        StartCoroutine(Announce("Hue Shift"));
         StartCoroutine(IColorBoom());
     }
 
     IEnumerator IColorBoom()
     {
         Debug.Log("ColorSplash!");
-        colorSplash.gameObject.SetActive(true);
-        
-        colorSplash.color = new Color(UnityEngine.Random.Range(0, 1) , UnityEngine.Random.Range(0, 1) , UnityEngine.Random.Range(0, 1), .5f);
-        yield return new WaitForSeconds(10);
-        colorSplash.gameObject.SetActive(false);
+        colorSplash.SetActive(true);
+        Color c = new Color(UnityEngine.Random.Range(0.75f, 1), UnityEngine.Random.Range(0.75f, 1), UnityEngine.Random.Range(0.75f, 1), .75f);
+        colorSplash.GetComponent<Image>().color = c;
+        yield return new WaitForSeconds(9);
+        colorSplash.SetActive(false);
     }
         public void zoom()
     {

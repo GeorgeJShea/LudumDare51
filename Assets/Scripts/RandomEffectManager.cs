@@ -24,6 +24,10 @@ public class RandomEffectManager : MonoBehaviour
 
     void Update()
     {
+        if (Level_Manager.lost) {
+            return;
+        }
+
         timer += Time.deltaTime;
         
 

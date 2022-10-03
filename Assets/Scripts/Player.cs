@@ -26,11 +26,13 @@ public class Player : Entity
     {
         scoreText.text = score.ToString();
 
-        Inputs();
+        if (!Level_Manager.lost) { 
+            Inputs();
+        }
 
         if(timeTillNextHit>0)timeTillNextHit-=Time.deltaTime;
         if(currentHealth<=0){
-            Debug.Log("Player has died");
+            Level_Manager.lost = true;
         }
     }
     private void FixedUpdate()

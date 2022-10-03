@@ -10,12 +10,13 @@ public class Player : Entity
     public TextMeshProUGUI scoreText;
     private Rigidbody2D rb;
     private Animator anime;
-    public Transform weapon;
+    [SerializeField] private Collider2D swordHitBox;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
+
         //anime = this.GetComponent<Animator>();
     }
 
@@ -27,6 +28,7 @@ public class Player : Entity
 
         Inputs();
 
+        if(timeTillNextHit>0)timeTillNextHit-=Time.deltaTime;
         if(currentHealth<=0){
             Debug.Log("Player has died");
         }
@@ -34,6 +36,17 @@ public class Player : Entity
     private void FixedUpdate()
     {
         Move();
+    }
+
+    void OnTriggerStay2D(Collider2D col)
+    {
+        if(timeTillNextHit<=0)
+        {
+            if(col.gameObject.tag == "Enemy"){
+                col.gameObject.GetComponent<Entity>().currentHealth-=5;
+                timeTillNextHit = timeBetweenHits;
+            }
+        }
     }
 
     void Move()
@@ -45,6 +58,8 @@ public class Player : Entity
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+        swordHitBox.enabled = Input.GetKey(KeyCode.Mouse0);
+        Debug.Log("Attacking is : "+swordHitBox.enabled);
 
         //Debug.Log(moveX);
         if (moveX != 0)

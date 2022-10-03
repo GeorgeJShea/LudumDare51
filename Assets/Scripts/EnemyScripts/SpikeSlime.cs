@@ -7,8 +7,6 @@ public class SpikeSlime : Entity
 {
     public int scoreValue;
     Rigidbody2D rb;
-    public float timeBetweenHits;
-    private float timeTillNextHit;
 
     void Awake()
     {

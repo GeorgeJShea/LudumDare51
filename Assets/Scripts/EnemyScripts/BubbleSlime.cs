@@ -9,19 +9,22 @@ public class BubbleSlime : Entity
     Rigidbody2D rb;
     protected float timeBetweenShots = 1;
 
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale;
         moveAllowed = true;
     }
-    void OnCollisionEnter2D(Collision2D other){
-
-        
-        if(other.collider.tag == "Player"){
-            other.gameObject.GetComponent<Entity>().currentHealth-=1;
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(timeTillNextHit<=0)
+        {
+            if(other.collider.tag == "Player"){
+                other.gameObject.GetComponent<Entity>().currentHealth-=2;
+                timeTillNextHit = timeBetweenHits;
+            }
         }
-
     }
 
     void Update(){

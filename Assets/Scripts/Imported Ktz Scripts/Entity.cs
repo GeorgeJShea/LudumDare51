@@ -11,6 +11,6 @@ public class Entity : MonoBehaviour
     public GameObject target;
     protected Vector3 originalScale;
     public int projCount;
-
-
+    public float timeBetweenHits;
+    protected float timeTillNextHit;
 }

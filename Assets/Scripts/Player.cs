@@ -59,7 +59,6 @@ public class Player : Entity
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         swordHitBox.enabled = Input.GetKey(KeyCode.Mouse0);
-        Debug.Log("Attacking is : "+swordHitBox.enabled);
 
         //Debug.Log(moveX);
         if (moveX != 0)

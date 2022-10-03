@@ -142,3 +142,4 @@ MonoBehaviour:
   target: {fileID: 0}
   projCount: 0
   scoreValue: 5
+  timeBetweenHits: 0.75

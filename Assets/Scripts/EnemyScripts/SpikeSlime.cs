@@ -7,6 +7,8 @@ public class SpikeSlime : Entity
 {
     public int scoreValue;
     Rigidbody2D rb;
+    public float timeBetweenHits;
+    private float timeTillNextHit;
 
     void Awake()
     {
@@ -14,17 +16,21 @@ public class SpikeSlime : Entity
         originalScale = transform.localScale;
         moveAllowed = true;
     }
-    void OnCollisionEnter2D(Collision2D other){
-
-        
-        if(other.collider.tag == "Player"){
-            other.gameObject.GetComponent<Entity>().currentHealth-=5;
+    void OnCollisionStay2D(Collision2D other)
+    {
+        if(timeTillNextHit<=0)
+        {
+            if(other.collider.tag == "Player"){
+                other.gameObject.GetComponent<Entity>().currentHealth-=5;
+                timeTillNextHit = timeBetweenHits;
+            }
         }
 
     }
 
-    void Update(){
-
+    void Update()
+    {
+        if(timeTillNextHit>0)timeTillNextHit-=Time.deltaTime;
         if(currentHealth <= 0){
             Player.score += scoreValue;
             MasterObjectPooler.Instance.Release(this.gameObject, "MeleeEnemy");

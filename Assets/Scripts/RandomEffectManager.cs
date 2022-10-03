@@ -10,7 +10,6 @@ public class RandomEffectManager : MonoBehaviour
     float timer;
     public TMPro.TextMeshProUGUI counter;
     private List<Action> actions;
-    static public float globalGameSpeed = 1f;
 
     private void Start()
     {
@@ -24,7 +23,7 @@ public class RandomEffectManager : MonoBehaviour
 
     void Update()
     {
-        if (Level_Manager.lost) {
+        if (Level_Manager.instance.lost) {
             return;
         }
 
@@ -71,10 +70,10 @@ public class RandomEffectManager : MonoBehaviour
     IEnumerator SpeedDouble()
     {
         Debug.Log("Speed x2");
-        globalGameSpeed *= 2;
+        Level_Manager.instance.globalGameSpeed *= 2;
 
         yield return new WaitForSeconds(10);
-        globalGameSpeed /= 2;
+        Level_Manager.instance.globalGameSpeed /= 2;
         Debug.Log("Speed x2 reverted");
     }
 }

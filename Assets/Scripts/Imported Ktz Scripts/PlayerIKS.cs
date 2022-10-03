@@ -46,7 +46,7 @@ public class PlayerIKS : MonoBehaviour
         }
 
         Vector3 tempVect = new Vector3(h, v, 0);
-        tempVect = tempVect.normalized * speed * Time.deltaTime  * RandomEffectManager.globalGameSpeed;
+        tempVect = tempVect.normalized * speed * Time.deltaTime  * Level_Manager.instance.globalGameSpeed;
         rb.MovePosition(rb.transform.position + tempVect);
         
 

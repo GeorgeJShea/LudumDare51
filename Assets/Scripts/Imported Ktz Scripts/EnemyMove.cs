@@ -28,7 +28,7 @@ public class EnemyMove : Entity
     void Update(){
 
         if(currentHealth <= 0){
-            Player.score += scoreValue;
+            target.GetComponent<Player>().score += scoreValue;
             MasterObjectPooler.Instance.Release(this.gameObject, "Enemy");
             currentHealth = maxHealth;
         }
@@ -37,7 +37,7 @@ public class EnemyMove : Entity
 
     private void FixedUpdate()
     {
-        float step = speed * Time.deltaTime * RandomEffectManager.globalGameSpeed;
+        float step = speed * Time.deltaTime * Level_Manager.instance.globalGameSpeed;
 
         if (moveAllowed)
         {

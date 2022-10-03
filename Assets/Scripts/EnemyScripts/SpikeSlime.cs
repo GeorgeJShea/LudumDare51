@@ -30,7 +30,7 @@ public class SpikeSlime : Entity
     {
         if(timeTillNextHit>0)timeTillNextHit-=Time.deltaTime;
         if(currentHealth <= 0){
-            Player.score += scoreValue;
+            target.GetComponent<Player>().score += scoreValue;
             MasterObjectPooler.Instance.Release(this.gameObject, "MeleeEnemy");
             currentHealth = maxHealth;
         }
@@ -40,7 +40,7 @@ public class SpikeSlime : Entity
     private void FixedUpdate()
     {
         // movement
-        float step = speed * Time.deltaTime * RandomEffectManager.globalGameSpeed;
+        float step = speed * Time.deltaTime * Level_Manager.instance.globalGameSpeed;
         if (moveAllowed)
         {
             rb.MovePosition(Vector2.MoveTowards(transform.position, target.transform.position, step));

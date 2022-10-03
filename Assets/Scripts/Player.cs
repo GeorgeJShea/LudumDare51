@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : Entity
 {
     private Vector2 moveDir;
-    static public int score = 0;
+    public int score = 0;
     public TextMeshProUGUI scoreText;
     private Rigidbody2D rb;
     private Animator anime;
@@ -24,15 +24,21 @@ public class Player : Entity
 
     void Update()
     {
-        scoreText.text = score.ToString();
-
-        if (!Level_Manager.lost) { 
-            Inputs();
+        if (Level_Manager.instance.lost) {
+            return;
         }
 
+
+        scoreText.text = score.ToString();
+
+
+        Inputs();
+        
+
         if(timeTillNextHit>0)timeTillNextHit-=Time.deltaTime;
+
         if(currentHealth<=0){
-            Level_Manager.lost = true;
+            Level_Manager.instance.lost = true;
         }
     }
     private void FixedUpdate()

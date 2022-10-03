@@ -31,6 +31,8 @@ public class BubbleSlime : Entity
 
         if(currentHealth <= 0){
             target.GetComponent<Player>().score += scoreValue;
+            if(target.GetComponent<Player>().currentHealth < 100 + 3)
+                target.GetComponent<Player>().currentHealth += 3;
             MasterObjectPooler.Instance.Release(this.gameObject, "RangedEnemy");
             currentHealth = maxHealth;
         }

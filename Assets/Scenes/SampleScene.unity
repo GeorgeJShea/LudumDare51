@@ -180,6 +180,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 673724554183041255, guid: 9deaf381e06f38c40bf8a121f850f541, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.247
+      objectReference: {fileID: 0}
+    - target: {fileID: 673724554183041255, guid: 9deaf381e06f38c40bf8a121f850f541, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.029
+      objectReference: {fileID: 0}
     - target: {fileID: 673724555344554948, guid: 9deaf381e06f38c40bf8a121f850f541, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -663,7 +671,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.7361035
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -687,7 +695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -8.97, y: 4.58, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -745,11 +753,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6673002533763841214, guid: dce3abadd436bff4a910d2f6c005f20e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.15
+      value: -9.12
       objectReference: {fileID: 0}
     - target: {fileID: 6673002533763841214, guid: dce3abadd436bff4a910d2f6c005f20e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.25
+      value: 3.12
       objectReference: {fileID: 0}
     - target: {fileID: 6673002533763841214, guid: dce3abadd436bff4a910d2f6c005f20e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1093,6 +1101,10 @@ PrefabInstance:
     - target: {fileID: 3588733486235588767, guid: cbe035e2fbf753f4295a8dc65e3a871f, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588733486235588767, guid: cbe035e2fbf753f4295a8dc65e3a871f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3588733487964093316, guid: cbe035e2fbf753f4295a8dc65e3a871f, type: 3}
       propertyPath: player

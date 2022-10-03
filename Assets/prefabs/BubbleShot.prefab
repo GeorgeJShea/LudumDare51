@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4489616919392110243}
   - component: {fileID: 8878809766642195314}
   - component: {fileID: 8525053756093158343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BubbleShot
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -7852470446585872443, guid: 5ca0b68c37baeff4c9b258ad9ff05bde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

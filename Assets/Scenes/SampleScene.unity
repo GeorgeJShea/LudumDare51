@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 376078800}
   radius: 5
-  cooldown: 5
+  cooldown: 2
 --- !u!114 &78086294
 MonoBehaviour:
   m_ObjectHideFlags: 0

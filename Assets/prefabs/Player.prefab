@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8191217915660819994}
   - component: {fileID: 7393874618655431360}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7084478072873803289}
   - component: {fileID: 6526302236652969820}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1981060141363394855}
   - component: {fileID: 2089941420434533368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7044292751833759988}
   - component: {fileID: 2157774905553607469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Circle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994602671137615945}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BootOrigin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 4302445168061460221}
   - component: {fileID: 5618243592545521975}
   - component: {fileID: 8061540560211916008}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Boot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5988538066841279312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BootOrigin1B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2451334803252979894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BootOrigin2B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5246453541289989054}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EyeController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54514900273531489}
   - component: {fileID: 6251781111430686986}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SwordOne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 550478905471982634}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BootOrigin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 4055371732557102068}
   - component: {fileID: 6673002533763841212}
   - component: {fileID: 6673002533763841213}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -704,6 +704,7 @@ MonoBehaviour:
   currentHealth: 100
   target: {fileID: 0}
   projCount: 0
+  timeBetweenHits: 0
   scoreText: {fileID: 0}
   swordHitBox: {fileID: 8141703051199718661}
 --- !u!50 &6673002533763841212
@@ -753,7 +754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6673002534591227362}
   - component: {fileID: 6673002534591227361}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6673002534753253316}
   - component: {fileID: 6673002534753253317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MainBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6673002535708017471}
   - component: {fileID: 6673002535708017470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +1005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 670668882485081329}
   - component: {fileID: 3295964294671729688}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fist (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1088,7 +1089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7009107485216160976}
   - component: {fileID: 8141703051199718661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SwordHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1138,7 @@ GameObject:
   - component: {fileID: 4703302824597780303}
   - component: {fileID: 2128194261071900217}
   - component: {fileID: 4353464191059345539}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Boot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

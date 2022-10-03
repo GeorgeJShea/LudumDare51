@@ -11,9 +11,14 @@ public class Spawner : MonoBehaviour
     public string enemyPool;
     public float radius;
 
+    public Gradient grad;
+
     private void Start()
     {
         player = GameObject.Find("Player");
+
+        //tintColor.Add(colorA);
+        //tintColor.Add(colorB);
     }
     void Update()
     {
@@ -24,6 +29,10 @@ public class Spawner : MonoBehaviour
             GameObject enemy = MasterObjectPooler.Instance.GetObject(enemyPool);
             enemy.transform.position = (Vector2)this.transform.position + Random.insideUnitCircle.normalized*radius;
             enemy.GetComponent<Entity>().target = player;
+
+
+            Color c = grad.Evaluate(Random.Range(0f, 1f));
+            enemy.GetComponent<SpriteRenderer>().color = c;
             timeTillNextSpawn = timeBetweenSpawns;
         }
     }

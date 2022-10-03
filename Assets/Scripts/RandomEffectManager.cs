@@ -24,14 +24,14 @@ public class RandomEffectManager : MonoBehaviour
 
         actions = new List<Action>();
         
-        //actions.Add(flipCamera);
-        //actions.Add(zoom);
-        //actions.Add(speedUp);
-        //actions.Add(BiggerSword);
-        //
-        //actions.Add(ColorBoom);
+        actions.Add(flipCamera);
+        actions.Add(zoom);
+        actions.Add(speedUp);
+        actions.Add(BiggerSword);
+        
+        actions.Add(ColorBoom);
         actions.Add(BossSlime);
-        //actions.Add(RandomTeleport);
+        actions.Add(RandomTeleport);
     }
 
 

@@ -704,7 +704,7 @@ MonoBehaviour:
   currentHealth: 100
   target: {fileID: 0}
   projCount: 0
-  timeBetweenHits: 0
+  timeBetweenHits: 0.2
   score: 0
   scoreText: {fileID: 0}
   swordHitBox: {fileID: 8141703051199718661}

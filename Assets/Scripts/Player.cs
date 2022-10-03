@@ -52,6 +52,7 @@ public class Player : Entity
         {
             if(col.gameObject.tag == "Enemy"){
                 col.gameObject.GetComponent<Entity>().currentHealth-=5;
+                if(col.gameObject.name.Contains("BossSlime"))this.currentHealth+=2;
                 timeTillNextHit = timeBetweenHits;
             }
         }

@@ -32,6 +32,7 @@ public class SpikeSlime : Entity
         if(timeTillNextHit>0)timeTillNextHit-=Time.deltaTime;
         if(currentHealth <= 0){
             target.GetComponent<Player>().score += scoreValue;
+            if(gameObject.name.Contains("BossSlime")) Destroy(gameObject);
             MasterObjectPooler.Instance.Release(this.gameObject, "MeleeEnemy");
             currentHealth = maxHealth;
             Instantiate(deathAffect, gameObject.transform.position, Quaternion.identity);

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 using Unity.VisualScripting;
 using QFSW.MOP2;
 using TMPro;
@@ -15,6 +16,7 @@ public class RandomEffectManager : MonoBehaviour
     public Transform sword;
     public Transform swordhitbox;
     public GameObject announcement;
+    public Image colorSplash;
     private void Start()
     {
 
@@ -23,6 +25,7 @@ public class RandomEffectManager : MonoBehaviour
         actions.Add(zoom);
         actions.Add(speedUp);
         actions.Add(BiggerSword);
+        actions.Add(ColorBoom);
     }
 
 
@@ -71,8 +74,22 @@ public class RandomEffectManager : MonoBehaviour
         LevelCamera.transform.eulerAngles = new Vector3(0, 0, 0);
         //Debug.Log("Zoom reverted");
     }
+    
+    public void ColorBoom()
+    {
+        IColorBoom();
+    }
 
-    public void zoom()
+    IEnumerator IColorBoom()
+    {
+        Debug.Log("ColorSplash!");
+        colorSplash.gameObject.SetActive(true);
+        
+        colorSplash.color = new Color(UnityEngine.Random.Range(0, 1) , UnityEngine.Random.Range(0, 1) , UnityEngine.Random.Range(0, 1), .5f);
+        yield return new WaitForSeconds(10);
+        colorSplash.gameObject.SetActive(false);
+    }
+        public void zoom()
     {
         StartCoroutine("CameraZoom");
         StartCoroutine(Announce("Camera Zoomed"));

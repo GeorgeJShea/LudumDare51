@@ -21,10 +21,12 @@ public class RandomEffectManager : MonoBehaviour
     {
 
         actions = new List<Action>();
+        
         actions.Add(flipCamera);
         actions.Add(zoom);
         actions.Add(speedUp);
         actions.Add(BiggerSword);
+        
         actions.Add(ColorBoom);
     }
 
@@ -77,7 +79,7 @@ public class RandomEffectManager : MonoBehaviour
     
     public void ColorBoom()
     {
-        IColorBoom();
+        StartCoroutine(IColorBoom());
     }
 
     IEnumerator IColorBoom()

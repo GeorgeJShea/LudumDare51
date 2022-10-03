@@ -24,14 +24,14 @@ public class RandomEffectManager : MonoBehaviour
 
         actions = new List<Action>();
         
-        actions.Add(flipCamera);
-        actions.Add(zoom);
-        actions.Add(speedUp);
-        actions.Add(BiggerSword);
-        
-        actions.Add(ColorBoom);
+        //actions.Add(flipCamera);
+        //actions.Add(zoom);
+        //actions.Add(speedUp);
+        //actions.Add(BiggerSword);
+        //
+        //actions.Add(ColorBoom);
         actions.Add(BossSlime);
-        actions.Add(RandomTeleport);
+        //actions.Add(RandomTeleport);
     }
 
 
@@ -154,7 +154,8 @@ public class RandomEffectManager : MonoBehaviour
 
     public void BossSlime()
     {
-        Instantiate(slimeBoss,GameObject.Find("PlaySpace").transform.position,Quaternion.identity);
+        GameObject bossSlime = Instantiate(slimeBoss,GameObject.Find("PlaySpace").transform.position,Quaternion.identity);
+        bossSlime.GetComponent<SpikeSlime>().target = GameObject.Find("Player");
         StartCoroutine(Announce("Slime Boss"));
     }
 

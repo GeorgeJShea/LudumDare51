@@ -853,7 +853,8 @@ MonoBehaviour:
   sword: {fileID: 567747509}
   swordhitbox: {fileID: 567747508}
   announcement: {fileID: 1859674337}
-  colorSplash: {fileID: 1891666583}
+  colorSplash: {fileID: 0}
+  slimeBoss: {fileID: 6205797637547559747, guid: 177645a15f57d644b9774d757155b76a, type: 3}
 --- !u!114 &1030826421 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3588733486230426951, guid: cbe035e2fbf753f4295a8dc65e3a871f, type: 3}
